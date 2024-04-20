@@ -20,3 +20,6 @@ if n=="원" or n=="삼각형" or n=="사각형":
 else:
     t.ht()
     t.write("올바른 도형 이름을 입력하세요.")
+
+
+t.mainloop()

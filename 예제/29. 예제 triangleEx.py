@@ -18,3 +18,6 @@ t.up()
 t.goto(150, 0)
 t.down()
 triangle(120)
+
+
+t.mainloop()

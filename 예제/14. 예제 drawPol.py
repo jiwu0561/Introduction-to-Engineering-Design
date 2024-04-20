@@ -19,3 +19,5 @@ if n == 0 or 3<=n<=4:
 else:
     t.ht()
     t.write("올바른 숫자를 입력하세요.")
+
+t.mainloop()

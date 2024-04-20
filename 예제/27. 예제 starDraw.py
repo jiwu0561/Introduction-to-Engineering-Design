@@ -8,9 +8,11 @@ for x,y in xyList:
     leng=r.randint(30,100)
     t.up()
     t.goto(x,y)
-    t.down
+    t.down()
     t.begin_fill()
     for i in range(5):
         t.fd(leng)
         t.lt(144)
-    t.end_fill
+    t.end_fill()
+
+t.mainloop()

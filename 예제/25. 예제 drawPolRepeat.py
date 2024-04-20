@@ -7,7 +7,7 @@ d_list=["사각형","삼각형","원"]
 
 while True:
     s = t.textinput("","도형을 입력하시오: ")
-    if s =="s"or"S":
+    if s =="s"or s =="S":
         break
     if s in d_list:
         leng = t.numinput("도형 그리기","길이(반지름) 입력")
@@ -27,3 +27,5 @@ while True:
     tm.sleep(3)
     t.clear()
     t.st
+
+t.mainloop()

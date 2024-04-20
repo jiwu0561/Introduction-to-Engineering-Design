@@ -9,3 +9,5 @@ leng=t.numinput("",str(n)+"각형의 길이를 입력하세요.")
 for i in range(n):
     t.forward(leng)
     t.left(360/n)
+
+t.mainloop()
